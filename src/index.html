@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Peso en otros Planetas</title>
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/mobile.css" />
+    <link rel="stylesheet" href="./css/tablet.css" media="(min-width: 768px)">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main>
+       <div class="image-container">
+           <img src="./images/planetasmain.png" alt="">
+       </div>
+       <div class="container-main">
+         <h1 class="maintitle">TU PESO EN OTROS PLANETAS</h1>
+         <form class="form-container">
+           <h2 class="subtitle">Coloca tu peso en la tierra</h2>
+           <div class="container-input">
+             <input id="pesoTierra" class="box" type="number" placeholder="Peso" />
+             <span>KG</span>
+           </div>
+           <h2 class="subtitle">Elige el planeta</h2>
+           <div class="container-input">
+               <input class="list box" list="planetas" placeholder="Planeta"/>
+               <datalist id="planetas">
+                 <option value="Mercurio"></option>
+                 <option value="Venus"></option>
+                 <option value="Marte"></option>
+                 <option value="Jupiter"></option>
+                 <option value="Saturno"></option>
+                 <option value="Urano"></option>
+                 <option value="Neptuno"></option>
+                 <option value="Pluton"></option>
+               </datalist>
+           </div>
+           <div class="container-btn">
+               <input id="button" class="btn" type="button" value="Calcular">
+           </div>
+       </div>
+      </form>
+      <div class="res-container">
+        <img class="image-planeta" id="imagePlaneta" src="" alt="Mercurio">
+        <h2 id="h2-res"></h2>
+        <h3>Tu peso es:</h3>
+        <div class="res-box">
+          <h4 id="res"></h4>
+        </div>
+      </div>
+    </main>
+    <footer></footer>
+    <script src="./js/planetas.js"></script>
+  </body>
+</html>

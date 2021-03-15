@@ -1,0 +1,156 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background: #272727;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-width: 320px;
+  height: 100vh;
+}
+
+.maintitle {
+  margin-right: 15px;
+  font-size: 2.8rem;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #009efa;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.image-container img {
+  max-width: 300px;
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.subtitle {
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  font-size: 1.8rem;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container-input {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 140px;
+  height: 30px;
+  margin-bottom: 10px;
+  background: transparent;
+  font-size: 1.3rem;
+  border-bottom: 1px solid #fff;
+}
+
+.box {
+  width: 70%;
+  border: none;
+  outline: none;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: transparent;
+  color: #fff;
+}
+
+.box::placeholder {
+  font-size: 1.2rem;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #a8a6a3;
+}
+
+.container-input span {
+  font-size: 1.2rem;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+}
+
+.list {
+  width: 140px;
+  height: 20px;
+}
+
+.list::placeholder {
+  font-size: 1.2rem;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #a8a6a3;
+}
+
+.container-btn {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+}
+
+.container-btn .btn {
+  width: 140px;
+  height: 30px;
+  margin-top: 20px;
+  font-size: 1.2rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.res-container {
+  display: none;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  min-width: 320px;
+  margin-top: 120px; 
+}
+
+.res-container img {
+  width: 300px;
+}
+
+.res-container h2 {
+  width: 100%;
+  text-align: center;
+  font-size: 3.5rem;
+  color: #f2f2f2;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+.res-container h3 {
+  width: 100%;
+  text-align: center;
+  font-size: 2rem;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #009efa;
+  margin-top: 10px;
+}
+
+.res-box {
+  width: 60%;
+  max-width: 250px;
+  height: 60px;
+  margin-bottom: 50px;
+  border-radius: 3px;
+  background: #f2f2f2;
+}
+
+.res-box h4 {
+  font-size: 1.6rem;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
